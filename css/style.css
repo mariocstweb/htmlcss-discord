@@ -1,0 +1,254 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Links Style */
+
+ul {
+  gap: 30px;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  background-image: url(/img/jumbo.png);
+}
+
+.navbar {
+  min-height: 80px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.navbar > * {
+  flex-basis: 25%;
+  padding: 10px 0;
+}
+
+.navbar-menu {
+  text-align: center;
+}
+
+.navbar-login {
+  text-align: right;
+}
+
+.jumbotron {
+  /* background-color: darkblue; */
+  height: 500px;
+  padding: 60px 0;
+  justify-content: center;
+}
+
+.jumbotron-content {
+  /* background-color: pink; */
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+/* Title & P Style */
+
+h1 {
+  margin-bottom: 30px;
+  line-height: 48px;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+h2 {
+  margin-bottom: 30px;
+  line-height: 48px;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+p {
+  line-height: 28px;
+}
+
+/* ------------------------------------------------------------------- */
+.bgcolor-w {
+  background-color: #fff;
+}
+
+.bgcolor-g {
+  background-color: #d3d3d3;
+}
+
+.bgcolor-p {
+  background-color: #f08080;
+}
+
+.bgcolor-lg {
+  background-color: #20b2aa;
+}
+
+.bgcolor-black {
+  background-color: black;
+}
+
+/* Text-Color */
+
+.color-w {
+  color: white;
+}
+
+.color-b {
+  color: black;
+}
+
+/* Button Style */
+
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+
+.button-sm {
+  font-size: 1.1rem;
+}
+
+.button-lg {
+  font-size: 1.5rem;
+}
+
+/* ------------------------------------------------------------------- */
+
+.conteiner-main {
+  min-height: 500px;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.container-img {
+  min-height: 400px;
+  width: 700px;
+}
+
+.container-info {
+  min-height: 400px;
+  width: 250px;
+}
+
+.container-rectangle {
+  min-width: 1300px;
+  flex-basis: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.green-rectangle {
+  background-color: #228b22;
+  border: 3px dotted black;
+  height: 1000px;
+  width: 1200px;
+}
+
+/* Top-Footer */
+.top-footer {
+  background-color: #23272a;
+  min-height: 500px;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.social-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 400px;
+}
+.product-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 200px;
+}
+.company-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 200px;
+}
+.resources-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 200px;
+}
+.name-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 200px;
+}
+
+/* Bottom-Footer */
+
+.bottom-footer {
+  background-color: #23272a;
+  min-height: 100px;
+  /* flex-basis: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container-btn-footer {
+  /* border: 3px dotted black; */
+  background-color: #7fffd4;
+  height: 70px;
+  width: 1200px;
+  margin-bottom: 0;
+  /* -------------------- */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini-logo {
+  border: 3px dotted black;
+  height: 25px;
+  width: 50px;
+  background-color: #ffb6c1;
+}
+
+.mini-btn {
+  border: 3px dotted black;
+  height: 25px;
+  width: 50px;
+  background-color: #ffb6c1;
+}
+
+.top-footer {
+  margin-bottom: 2px;
+}
+
+.bottom-footer {
+  margin-bottom: 2px;
+}
