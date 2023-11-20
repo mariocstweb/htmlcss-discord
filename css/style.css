@@ -14,6 +14,7 @@ body {
 ul {
   gap: 30px;
   justify-content: center;
+  line-height: 40px;
 }
 
 li {
@@ -85,6 +86,11 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
 p {
   line-height: 28px;
   font-size: 1.5rem;
@@ -123,6 +129,10 @@ p {
 
 .color-b {
   color: black;
+}
+
+.color-lightblue {
+  color: #7289da;
 }
 
 /* Button Style */
@@ -174,81 +184,97 @@ button {
   text-align: center;
 }
 
-/* Top-Footer */
-.top-footer {
+.bgimg-avventura {
+  width: 600px;
+  background-image: url(/img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 400px;
+}
+
+/* Footer */
+
+footer {
+  /* padding: 50px 0; */
+  background-color: white;
+}
+
+.footer-container {
   background-color: #23272a;
-  min-height: 500px;
-  flex-basis: auto;
   display: flex;
+  flex-basis: 100%;
   justify-content: center;
-  align-items: center;
-}
-.social-row {
-  border: 3px dotted black;
-  height: 470px;
-  width: 400px;
-}
-.product-row {
-  border: 3px dotted black;
-  height: 470px;
-  width: 200px;
-}
-.company-row {
-  border: 3px dotted black;
-  height: 470px;
-  width: 200px;
-}
-.resources-row {
-  border: 3px dotted black;
-  height: 470px;
-  width: 200px;
-}
-.name-row {
-  border: 3px dotted black;
-  height: 470px;
-  width: 200px;
 }
 
-/* Bottom-Footer */
-
-/* .bottom-footer {
-  background-color: #23272a;
-  min-height: 100px;
- 
+.footer-top {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
+  flex-basis: 70%;
+  height: 600px;
+  border-bottom: 1px solid #7289da;
+  padding-top: 80px;
 }
 
-.container-btn-footer {
-  background-color: #7fffd4;
-  height: 70px;
-  width: 1200px;
-  margin-bottom: 0;
+.footer-left {
+  flex-basis: 30%;
+}
+.footer-right {
+  flex-basis: 70%;
+}
+
+.footer-nav {
+  height: 100%;
+  display: flex;
+}
+
+.footer-nav > * {
+  flex-basis: 25%;
+}
+
+.footer-container-bottom {
+  background-color: #716e6e;
   display: flex;
   justify-content: space-between;
+  flex-basis: 100%;
+}
+.footer-bottom {
+  background-color: #23272a;
+  flex-basis: 100%;
+  padding: 20px;
+}
+
+.right-button {
+  flex-basis: 30%;
+}
+
+.left-button {
+  flex-basis: 30%;
+}
+
+span {
+  display: inline-block;
+}
+
+#italian-logo {
+  height: 25px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.italian-div {
+  display: flex;
   align-items: center;
 }
 
-.mini-logo {
-  border: 3px dotted black;
-  height: 25px;
-  width: 50px;
-  background-color: #ffb6c1;
+h4 {
+  margin-right: 5px;
 }
 
-.mini-btn {
-  border: 3px dotted black;
-  height: 25px;
-  width: 50px;
-  background-color: #ffb6c1;
+.fa-brands {
+  margin-top: 15px;
+  font-size: 28px;
+  margin-right: 15px;
 }
 
-.top-footer {
-  margin-bottom: 2px;
+.font-footer {
+  font-style: bold;
 }
-
-.bottom-footer {
-  margin-bottom: 2px;
-} */
