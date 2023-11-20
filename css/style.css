@@ -9,6 +9,11 @@ body {
   font-family: sans-serif;
 }
 
+figure > img {
+  width: 100%;
+  display: block;
+}
+
 /* Links Style */
 
 ul {
@@ -28,6 +33,13 @@ a {
 
 .container {
   display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container-mini {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 header {
@@ -36,14 +48,22 @@ header {
   background-repeat: no-repeat;
 }
 
+.nav-list {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.container.nav-list {
+  gap: 50px;
+}
+
 .navbar {
   min-height: 80px;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px 0;
 }
 
 .navbar > * {
-  flex-basis: 25%;
   padding: 10px 0;
   align-self: center;
 }
@@ -65,7 +85,7 @@ header {
 
 .jumbotron-content {
   /* background-color: pink; */
-  width: 50%;
+  /* width: 50%; */
   height: 100%;
   text-align: center;
 }
@@ -73,7 +93,7 @@ header {
 /* Title & P Style */
 
 h1 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   line-height: 48px;
   font-weight: 900;
   font-size: 3.5rem;
@@ -141,7 +161,7 @@ button {
   border: none;
   border-radius: 30px;
   padding: 15px 30px;
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 
 .button-sm {
@@ -155,33 +175,44 @@ button {
 .btn-mrgn-top {
   margin-top: 30px;
 }
+
+.header-button {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 /* ------------------------------------------------------------------- */
 
 .conteiner-main {
   display: flex;
-  height: 600px;
   padding: 100px 300px;
-  gap: 150px;
+  /* gap: 150px; */
+  justify-content: center;
+  align-items: center;
 }
 
 .container-img {
-  flex-basis: 70%;
+  flex-basis: 60%;
 }
 
 .container-info {
-  flex-basis: 30%;
+  flex-basis: 40%;
 }
 
 .container-rectangle {
-  display: flex;
-  justify-content: center;
   height: auto;
   padding: 60px 0;
 }
 
 .green-rectangle {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-basis: 60%;
   text-align: center;
+  align-items: center;
 }
 
 .bgimg-avventura {
@@ -189,7 +220,6 @@ button {
   background-image: url(/img/stars.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 400px;
 }
 
 /* Footer */
@@ -201,17 +231,18 @@ footer {
 
 .footer-container {
   background-color: #23272a;
-  display: flex;
   flex-basis: 100%;
   justify-content: center;
 }
 
 .footer-top {
   display: flex;
-  flex-basis: 70%;
+  /* flex-basis: 70%; */
+  max-width: 1400px;
   height: 600px;
   border-bottom: 1px solid #7289da;
   padding-top: 80px;
+  margin: 0 auto;
 }
 
 .footer-left {
@@ -231,23 +262,19 @@ footer {
 }
 
 .footer-container-bottom {
-  background-color: #716e6e;
-  display: flex;
-  justify-content: space-between;
+  background-color: #23272a;
   flex-basis: 100%;
 }
 .footer-bottom {
+  justify-content: space-between;
+  display: flex;
   background-color: #23272a;
   flex-basis: 100%;
   padding: 20px;
 }
 
 .right-button {
-  flex-basis: 30%;
-}
-
-.left-button {
-  flex-basis: 30%;
+  flex-basis: 30px;
 }
 
 span {

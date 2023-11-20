@@ -19,7 +19,7 @@
       <nav class="navbar container color-w">
         <div class="navbar-logo"><img src="img/logo.svg" alt="" /></div>
         <div class="navbar-menu">
-          <ul class="container">
+          <ul class="container nav-list">
             <li><a href="#">Scarica</a></li>
             <li><a href="#">Perchè Discord</a></li>
             <li><a href="#">Nitro</a></li>
@@ -32,7 +32,7 @@
         </div>
       </nav>
 
-      <div class="jumbotron container">
+      <div class="jumbotron container-mini">
         <div class="jumbotron-content color-w">
           <h1 class="color-w">Il tuo posto per parlare</h1>
           <p>
@@ -41,20 +41,24 @@
             che vuole passare il tempo assieme, Discord rende più facile
             chiacchierare ogni giorno e ritrovarsi più spesso
           </p>
-          <button class="button-lg bgcolor-w btn-mrgn-top">
-            <i class="fa-solid fa-down-long" style="color: #000000"></i> Scarica
-            per Mac
-          </button>
-          <button class="color-w button-lg bgcolor-black btn-mrgn-top">
-            Apri Discord nel tuo browser
-          </button>
+          <div class="header-button">
+            <button class="button-lg bgcolor-w btn-mrgn-top">
+              <i class="fa-solid fa-down-long" style="color: #000000"></i>
+              Scarica per Mac
+            </button>
+            <button class="color-w button-lg bgcolor-black btn-mrgn-top">
+              Apri Discord nel tuo browser
+            </button>
+          </div>
         </div>
       </div>
     </header>
     <!-- Main -->
     <main>
       <div class="conteiner-main bgcolor-w">
-        <div class="container-img"><img src="img/item1.svg" alt="" /></div>
+        <div class="container-img">
+          <img src="img/item1.svg" alt="" />
+        </div>
         <div class="container-info">
           <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
           <p>
@@ -183,9 +187,13 @@
         </div>
       </div>
       <div class="footer-container-bottom">
-        <div class="footer-bottom">
-          <button class="left-button">Logo</button>
-          <button class="right-button">Link</button>
+        <div class="footer-bottom container">
+          <figure>
+            <img src="img/logo.svg" alt="" />
+          </figure>
+          <button class="right-button bgcolor-lightblue color-w">
+            Registrati
+          </button>
         </div>
       </div>
     </footer>
